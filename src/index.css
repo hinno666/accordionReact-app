@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+  /* Цвет фона */
+}
+
+main {
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.question {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #fff;
+  /* Белый фон */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* Тень */
+}
+
+.question h5 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.question-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 12px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.question-btn:hover {
+  background-color: #0056b3;
+}
+
+.question p {
+  margin-top: 10px;
+}
+
+.question.active {
+  background-color: rgba(255, 255, 255, 0.8);
+  /* Цвет с прозрачностью */
+  backdrop-filter: blur(8px);
+  /* Эффект стекла */
+}
